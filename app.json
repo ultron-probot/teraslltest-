@@ -1,0 +1,45 @@
+{
+  "name": "telegram-otp-bot",
+  "description": "Telegram OTP and session management bot",
+  "keywords": ["telegram", "bot", "pyrogram", "mongodb"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from my.telegram.org",
+      "value": "39430933"
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from my.telegram.org",
+      "value": "51c8ed0aeaab318b8c068ef82e8cacbe"
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "value": "8494757098:AAFaQxn4piMHK9mUD02gxYIymbRH1wrong"
+    },
+    "ADMIN_ID": {
+      "description": "Telegram user ID of the admin",
+      "value": "8404535682"
+    },
+    "LOG_GROUP_ID": {
+      "description": "Telegram group ID for logs",
+      "value": "-1003415074133"
+    },
+    "MONGO_DB_URI": {
+      "description": "MongoDB connection string",
+      "value": "mongodb+srv://otpbot23:otpbot23@cluster0.ddbmb1f.mongodb.net/?appName=wrong0"
+    },
+    "MUST_JOIN": {
+      "description": "Channel ID users must join",
+      "value": "-1003414102418"
+    },
+    "MUST_JOIN_LINK": {
+      "description": "Invite link for forced join channel",
+      "value": "https://t.me/A2globalupdate"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "stack": "container"
+}
