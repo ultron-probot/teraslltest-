@@ -42,14 +42,14 @@ API_ID = int(os.getenv("API_ID", "24168862"))
 API_HASH = os.getenv("API_HASH", "916a9424dd1e58ab7955001ccc0172b3")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8494757098:AAFaQxn4piMHK9mUD02gxYIymbRH1IO9POg")
 
-ADMIN_ID="6421770811"
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002023049910"))
+ADMIN_ID="8404535682"
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1003415074133"))
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://otpbot23:otpbot23@cluster0.ddbmb1f.mongodb.net/?appName=Cluster0")
 
 # Forced channel subscription
 MUST_JOIN = -1002387668895  # ZeeMusicUpdate channel ID
-MUST_JOIN_LINK = "https://t.me/ZeeMusicUpdate"
+MUST_JOIN_LINK = "https://t.me/A2globalupdate"
 
 logger.info("Configuration loaded from environment variables.")
 
