@@ -581,7 +581,7 @@ async def start_command(client, message: Message):
     
     try:
         await message.reply_photo(
-            photo="bot_assets/start_image.png",
+            photo="assets/start_image.png",
             caption=welcome_text,
             reply_markup=keyboard
         )
