@@ -36,10 +36,9 @@
       "value": "https://t.me/A2globalupdate"
     }
   },
-  "formation": {
-    "worker": {
-      "quantity": 1
+  "buildpacks": [
+    {
+      "url": "heroku/python"
     }
-  },
-  "stack": "container"
+  ]
 }
